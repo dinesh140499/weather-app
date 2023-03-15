@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+input{
+  border: none;
+  outline: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+h5{
+  font-size: 1rem;
+  /* border-top: 0px; */
+  margin-top: 1rem;
+  font-weight: lighter;
+}
+
+
+img{
+  animation: iconmove 1s linear infinite alternate-reverse;
+}
+
+
+/* @keyframes iconmove {
+  from{
+    transform: translateX(-5px)
+  }
+} */
+
+.container {
+  background-color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+}
+
+.weather {
+  width: 25vw;
+  padding: 1rem;
+  /* box-shadow: 1px 2px 3px 5px #fff; */
+  background: linear-gradient(to top, #c4d4f6, rgb(186, 225, 240));
+  border-radius: 10px;
+  animation: bgchnger 1s infinite alternate-reverse;
+  transition: all 0.3s linear;
+}
+
+
+span{
+  color: grey;
+}
+
+.haze{
+  font-size: 2rem;
+  margin-top: 0;
+  border-bottom: 0;
+  font-weight: bold;
+}
+
+.search-input{
+  box-shadow: 1px 3px 5px 1px rgba(0,0,0,0.3);
+  width: 100%;
+background-color: white;
+border-radius: 10px;
+  padding: 10px;
+}
+
+.search{
+  cursor: pointer;
+}
